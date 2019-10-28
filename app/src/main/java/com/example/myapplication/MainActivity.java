@@ -51,19 +51,19 @@ public class MainActivity extends AppCompatActivity {
         image_Icon = (ImageView)findViewById(R.id.imageIcon);
         searchView = (SearchView) findViewById(R.id.app_bar_search);
 
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String s) {
-                GetCurrentWeatherData(s);
-                return true;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String s) {
-                GetCurrentWeatherData(s);
-                return false;
-            }
-        });
+//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//            @Override
+//            public boolean onQueryTextSubmit(String s) {
+//                GetCurrentWeatherData(s);
+//                return true;
+//            }
+//
+//            @Override
+//            public boolean onQueryTextChange(String s) {
+//                GetCurrentWeatherData(s);
+//                return false;
+//            }
+//        });
     }
 
     @Override
