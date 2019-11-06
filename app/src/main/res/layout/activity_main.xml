@@ -191,12 +191,13 @@
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:id="@+id/textView_hour0"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:id="@+id/textView_hour0"
-                            android:text="00.00"/>
+                            android:text="06.00" />
                         <ImageView
                             android:layout_marginTop="20dp"
                             android:layout_width="80dp"
@@ -215,24 +216,26 @@
                                 android:layout_height="20dp"
                                 android:id="@+id/imageView_hour0DoAm"
                                 android:src="@drawable/humidity"/>
+
                             <TextView
+                                android:id="@+id/textView_hour0DoAm"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Do am"
                                 android:layout_gravity="center"
-                                android:id="@+id/textView_hour0DoAm"/>
+                                android:text="87 g/m³" />
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:id="@+id/textView_hour1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:id="@+id/textView_hour1"
-                            android:text="04.00"/>
+                            android:text="09.00" />
                         <ImageView
                             android:layout_marginTop="20dp"
                             android:layout_width="80dp"
@@ -251,24 +254,26 @@
                                 android:layout_height="20dp"
                                 android:id="@+id/imageView_hour1DoAm"
                                 android:src="@drawable/humidity"/>
+
                             <TextView
+                                android:id="@+id/textView_hour1DoAm"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Do am"
                                 android:layout_gravity="center"
-                                android:id="@+id/textView_hour1DoAm"/>
+                                android:text="83 g/m³" />
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:id="@+id/textView_hour2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:id="@+id/textView_hour2"
-                            android:text="08.00"/>
+                            android:text="12.00" />
                         <ImageView
                             android:layout_marginTop="20dp"
                             android:layout_width="80dp"
@@ -287,24 +292,26 @@
                                 android:layout_height="20dp"
                                 android:id="@+id/imageView_hour2DoAm"
                                 android:src="@drawable/humidity"/>
+
                             <TextView
+                                android:id="@+id/textView_hour2DoAm"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Do am"
                                 android:layout_gravity="center"
-                                android:id="@+id/textView_hour2DoAm"/>
+                                android:text="80 g/m³" />
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:id="@+id/textView_hour3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:id="@+id/textView_hour3"
-                            android:text="12.00"/>
+                            android:text="15.00" />
 
                         <ImageView
                             android:layout_marginTop="20dp"
@@ -325,24 +332,26 @@
                                 android:layout_height="20dp"
                                 android:id="@+id/imageView_hour3DoAm"
                                 android:src="@drawable/humidity"/>
+
                             <TextView
+                                android:id="@+id/textView_hour3DoAm"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Do am"
                                 android:layout_gravity="center"
-                                android:id="@+id/textView_hour3DoAm"/>
+                                android:text="73 g/m³" />
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:id="@+id/textView_hour4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:id="@+id/textView_hour4"
-                            android:text="16.00"/>
+                            android:text="18.00" />
                         <ImageView
                             android:layout_marginTop="20dp"
                             android:layout_width="80dp"
@@ -361,24 +370,26 @@
                                 android:layout_height="20dp"
                                 android:id="@+id/imageView_hour4oAm"
                                 android:src="@drawable/humidity"/>
+
                             <TextView
+                                android:id="@+id/textView_hour4DoAm"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Do am"
                                 android:layout_gravity="center"
-                                android:id="@+id/textView_hour4DoAm"/>
+                                android:text="84 g/m³" />
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <TextView
+                            android:id="@+id/textView_hour5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:id="@+id/textView_hour5"
-                            android:text="20.00"/>
+                            android:text="21" />
                         <ImageView
                             android:layout_marginTop="20dp"
                             android:layout_width="80dp"
@@ -397,12 +408,13 @@
                                 android:layout_height="20dp"
                                 android:id="@+id/imageView_hour5DoAm"
                                 android:src="@drawable/humidity"/>
+
                             <TextView
+                                android:id="@+id/textView_hour5DoAm"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Do am"
                                 android:layout_gravity="center"
-                                android:id="@+id/textView_hour5DoAm"/>
+                                android:text="83 g/m³" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -435,24 +447,24 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Hôm nay"
-                            android:id="@+id/textView_ngayHomNay"/>
+                            android:id="@+id/textView_ngay0"/>
                         <ImageView
                             android:layout_marginTop="20dp"
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:id="@+id/imageView_ngayHomNay"
+                            android:id="@+id/imageView_ngay0"
                             android:src="@drawable/humidity"/>
                         <TextView
                             android:layout_marginTop="20dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="max"
-                            android:id="@+id/textView_ngayHomNayMax"/>
+                            android:id="@+id/textView_ngay0Max"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="min"
-                            android:id="@+id/textView_ngayHomNayMin"/>
+                            android:id="@+id/textView_ngay0Min"/>
                     </LinearLayout>
                     <LinearLayout
                         android:gravity="center"
